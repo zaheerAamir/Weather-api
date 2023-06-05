@@ -1,10 +1,9 @@
-import { boo } from "./hello.js"
 import express, {Request, Response} from 'express'
 import routes from "./routes.js"
 import cors from 'cors'
 
 
-console.log('hello world', boo)
+console.log('hello world')
 
 const app = express()
 app.use(cors({origin: '*'}))
